@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Roboto Condensed", sans-serif;
+}
+.container {
+  width: 1160px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.homeEliment {
+  padding-top: 20px;
+}
+#homeContent {
+  background-image: linear-gradient(#09232185, #47859cad), url("img/sky.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 50px;
+}
+.logo {
+  padding: 15px;
+  width: 211px;
+  float: left;
+}
+.navBar {
+  list-style: none;
+  display: block;
+  width: 614px;
+  float: right;
+}
+
+.navBar ul {
+  list-style: none;
+}
+.navBar ul li a {
+  text-decoration: none;
+  float: left;
+  padding-left: 47px;
+  padding-top: 35px;
+  color: white;
+  font-size: 18px;
+  font-family: "Owsold", sans-serif;
+}
+.homebtn {
+  border: none;
+  background: #1a6c7a;
+  color: white;
+  padding: 15px 40px;
+  font-size: 16px;
+  margin-left: 28px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+/* ---------------------description------------- */
+
+.content {
+  padding-top: 200px;
+  text-align: center;
+}
+.content h3 {
+  font-size: 32px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.content h1 {
+  font-size: 56px;
+  color: white;
+  margin: 15px 0px;
+}
+.content p {
+  color: white;
+  width: 50%;
+  padding-left: 255px;
+  line-height: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.homeButton {
+  padding: 90px 0px;
+}
+.homeButton a {
+  border: 2px solid white;
+  font-size: 18px;
+  padding: 11px 47px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.homeButton a:hover {
+  background: #1a6c7a;
+  border-color: #1a6c7a;
+  padding: 11px 48px;
+}
+
+#aboutBtn {
+  background: white;
+  border: none;
+  padding: 12px 48px;
+  color: #1a6c7a;
+  transition: 0.5s;
+  margin-left: 15px;
+}
+#aboutBtn:hover {
+  background: #1a6c7a;
+  color: white;
+}
+/* ------------------------service box------------------ */
+
+.singleBox {
+  width: 360px;
+  float: left;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+.serviceWrapper {
+  overflow: hidden;
+}
+.singleBox img {
+  width: 100%;
+}
+.singleBox h4 {
+  text-align: center;
+}
+.maiTitle {
+  width: 560px;
+  float: left;
+}
+.serviceDecWrapper {
+  overflow: hidden;
+}
+.serviceTitle {
+  margin: 100px 0px;
+}
+.serviceDec {
+  width: 600px;
+  float: right;
+}
+.maiTitle h3 {
+  font-size: 32px;
+}
+.serviceDec p {
+  color: #3a3a3abd;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+p.second {
+  padding-top: 25px;
+}
+.service {
+  margin-top: 25px;
+  border: 2px solid #1a6c7a;
+  padding: 12px 48px;
+  font-size: 18px;
+  background: transparent;
+  color: #1a6c7a;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.service:hover {
+  color: white;
+  background: #1a6c7a;
+}
+/* --------------------------------CALL TO ACTION---------------------- */
+
+.callToaction {
+  background: linear-gradient(#153243, #1a6c7a78), url("img/fogs.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.callToaction h3 {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 14%;
+  font-style: italic;
+  color: white;
+}
+.callToaction p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-align: center;
+  padding: 25px;
+}
+.cContact {
+  text-align: center;
+  padding-bottom: 14%;
+  padding-top: 25px;
+}
+
+.callContct {
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  padding: 14px 49px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.callContct:hover {
+  color: #1a6c7a;
+  background: #fff;
+}
+/* ----------------------------------gallary--------------------- */
+
+.gallary {
+  background: #f4f9fb;
+}
+
+.gWrapper {
+  padding-bottom: 110px;
+}
+.gallaryWrapper {
+  overflow: hidden;
+  padding-top: 60px;
+}
+.firstCul {
+  width: 371px;
+  float: left;
+  margin-right: 15px;
+}
+
+.firstCul img {
+  width: 100%;
+}
+.gallaryWrapper2 {
+  overflow: hidden;
+  padding-top: 9px;
+}
+/* ----------------------------------------footer----------------------- */
+
+.fboxWrapper {
+  overflow: hidden;
+}
+.fBox {
+  overflow: hidden;
+  width: 360px;
+  float: left;
+  padding: 10px;
+  margin-top: 4%;
+  margin-bottom: 40px;
+}
+.fBox:last-child {
+  float: right;
+}
+.fBox p {
+  width: 237px;
+  padding: 25px 0px;
+  font-size: 22px;
+  color: #1a6c7a;
+}
+
+.fBox h2 {
+  color: #423e3e;
+}
+#aboutContent {
+  width: 148px;
+  padding: 37px 0px;
+  font-size: 20px;
+  color: #3a3a3a;
+}
+
+.copyrightContainer {
+  border-top: 1px solid #1a6c7a;
+  float: left;
+  width: 100%;
+}
+.fCopyText {
+  text-align: center;
+  color: #1a6c7a;
+  font-size: 20px;
+  padding: 35px 0px;
+  font-family: serif;
+  font-weight: lighter;
+}
+.social a {
+  display: block;
+  color: #1a6c7a;
+  padding: 15px;
+  float: left;
+  font-size: 18px;
+  background: #d7e4e7;
+  margin-right: 14px;
+  border-radius: 124%;
+  display: grid;
+  text-decoration: none;
+  text-align: center;
+}
